@@ -1,0 +1,9 @@
+num  = [5,4,3,8,1]
+
+num.sort()
+print(num[-2])
+
+
+ashish=list(set(num))
+num.sort()
+print(num[-2])
