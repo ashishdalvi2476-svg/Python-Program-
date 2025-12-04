@@ -1,0 +1,14 @@
+a=int(input(" Enter Start point "))
+b=int(input(" Enter End  point "))
+for num in range(a,b+1):
+    if num<2:
+        continue 
+    prime = True 
+    
+    for i in range(2,int(num**0.5)+1):
+        if num % i==0:
+            prime=False
+            break
+        
+    if prime:
+            print(num,end=" ") 
