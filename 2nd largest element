@@ -5,5 +5,5 @@ print(num[-2])
 
 
 ashish=list(set(num))
-num.sort()
-print(num[-2])
+ashish.sort()
+print(ashish[-2])
