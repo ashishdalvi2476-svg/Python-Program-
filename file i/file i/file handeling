@@ -1,0 +1,28 @@
+def create():
+    with open("intel.txt","w") as f:
+        f.write(" Hi I am Ashish !!\n")
+        print("Created And Written Succefully.")
+        
+def read_file():
+    with open("intel.txt","r") as f:
+        print(f.read())        
+        
+def append():
+    with open("intel.txt","a") as f:
+        f.write("this is appended line !!\n ")
+        
+        
+def search():
+    with open("intel.txt","r") as f:
+        asdf=f.read()
+        found=False
+        if "Ashish" in asdf:
+            print("Exsist !!")
+            found=True 
+        else:
+            print("Not Exist !! ")
+        
+create()
+append()
+read_file()
+search()
